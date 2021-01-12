@@ -1,0 +1,21 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: springtest
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 114.116.230.141:8848
+        namespace: 4f6c3df8-2704-4926-893e-e19c55ef8295
+        watch:
+          enabled: true
+        cluster-name: springtestCluster
+        group: springtest.group
+      config:
+        server-addr: 114.116.230.141:8848
+        namespace: 4f6c3df8-2704-4926-893e-e19c55ef8295
+        name: springtest
+        group: springtest.group
+        file-extension: yaml
