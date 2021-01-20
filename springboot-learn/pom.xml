@@ -23,71 +23,71 @@
     <dependencyManagement>
         <dependencies>
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring-boot.version}</version>
                 <scope>test</scope>
-            </dependency>
+            </ioc.overview.dependency>
 
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring-boot.version}</version>
-            </dependency>
+            </ioc.overview.dependency>
 
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${spring-boot.version}</version>
-            </dependency>
+            </ioc.overview.dependency>
 
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-autoconfigure -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-autoconfigure</artifactId>
                 <version>${spring-boot.version}</version>
-            </dependency>
+            </ioc.overview.dependency>
 
 
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-aop</artifactId>
                 <version>${spring-boot.version}</version>
-            </dependency>
+            </ioc.overview.dependency>
 
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>1.2.60</version>
-            </dependency>
+            </ioc.overview.dependency>
 
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>provided</scope>
-            </dependency>
+            </ioc.overview.dependency>
 
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-freemarker -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-freemarker</artifactId>
                 <version>${spring-boot.version}</version>
-            </dependency>
+            </ioc.overview.dependency>
 
             <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-            <dependency>
+            <ioc.overview.dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.12</version>
                 <scope>provided</scope>
-            </dependency>
+            </ioc.overview.dependency>
 
         </dependencies>
     </dependencyManagement>

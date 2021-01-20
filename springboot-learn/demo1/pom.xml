@@ -17,39 +17,39 @@
     </properties>
 
     <dependencies>
-        <dependency>
+        <ioc.overview.dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
+        </ioc.overview.dependency>
+        <ioc.overview.dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
+        </ioc.overview.dependency>
+        <ioc.overview.dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-        <dependency>
+        </ioc.overview.dependency>
+        <ioc.overview.dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
+        </ioc.overview.dependency>
+        <ioc.overview.dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
-        </dependency>
+        </ioc.overview.dependency>
 
-        <dependency>
+        <ioc.overview.dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-        </dependency>
+        </ioc.overview.dependency>
 
-        <dependency>
+        <ioc.overview.dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-dependencies</artifactId>
             <type>pom</type>
             <scope>compile</scope>
-        </dependency>
+        </ioc.overview.dependency>
 
     </dependencies>
 
