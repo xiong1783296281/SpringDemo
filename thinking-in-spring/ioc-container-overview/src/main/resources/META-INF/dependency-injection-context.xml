@@ -9,7 +9,8 @@
     <!-- bean definitions here -->
     <import resource="dependency-lookup-context.xml"/>
 
-    <bean id="userRepository" class="ioc.overview.repository.UserRepository" autowire="byName"> <!-- Auto-Wiring -->
+    <bean id="userRepository" class="ioc.overview.repository.UserRepository" autowire="byType"> <!-- Auto-Wiring -->
+
         <!-- 手动配置 -->
 <!--        <property name="users">-->
 <!--            <util:list>-->
